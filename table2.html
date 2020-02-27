@@ -1,0 +1,20 @@
+  <?php 
+  echo"<table border ='1'>"; 
+  echo"<caption>Penjumlahan</caption>";
+  echo"<thread>";
+  echo"<tr>";
+  echo"<td>Nilai1</td>";
+  echo"<td>Nilai2</td>";
+  echo"<td>Hasil</td>";
+  echo"</tr>";
+ echo"</thread>";
+
+  for ($row = 0; $row < 4; $row ++){
+  	echo "<tr>";
+
+  	for ($col = 1; $col <=3; $col ++){
+  		echo "<td>", ($col + ($row * 1)), "</td>;
+  	}
+	echo"</tr>";
+	}
+		echo"</table>";
